@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="MainDiv">
+        <div>
+            <div class="option" id="rock">
+                <i class="fa-regular fa-hand-back-fist icons"></i>
+            </div>
+            <div><p>Rock</p></div>
+        </div>
+
+        <div>
+            <div class="option" id="paper">
+                <i class="fa-regular fa-hand-paper icons"></i>
+            </div>
+            <div><p>Paper</p></div>
+        </div>
+
+        <div>
+            <div class="option" id="scissors">
+                <i class="fa-regular fa-hand-peace icons"></i>
+            </div>
+            <div><p>Scissors</p></div>
+        </div>
+    </div>
+
+    <div class="result">
+        <button class="reset" id="reset"><i class="fa-solid fa-arrow-rotate-left"></i>Reset</button>
+        <div class="userResult" >
+            <div id="user">
+                <h3 id="userResultHeading">0</h3>
+            </div>
+            <div><p>User</p></div>
+        </div>
+        <div class="compResult">
+            <div id="comp">
+                <h3 id="compResultHeading">0</h3>
+            </div>
+            <div><p>Computer</p></div>
+        </div>
+    </div>
+
+    <div class="heading-container">
+        <h3 class="Score" id="ScoreMarks">Select An Option To Play</h3>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
